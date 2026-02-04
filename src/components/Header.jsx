@@ -1,8 +1,10 @@
+import styles from './Header.module.css';
+
 export default function Header({ title, subtitle }) {
   return (
-    <header className="header">
-      <h1>{title}</h1>
-      <p className="subtitle">{subtitle}</p>
+    <header className={styles.headerWrapper}>
+      <h1 className={styles.title}>{title}</h1>
+      <p className={styles.subtitle}>{subtitle}</p>
     </header>
   );
 }
