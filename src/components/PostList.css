@@ -1,0 +1,28 @@
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.posts-list {
+  list-style: none;
+}
+
+.post-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-title {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  color: #7f8c8d;
+  line-height: 1.6;
+}
